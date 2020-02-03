@@ -1,0 +1,745 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" href="fonts/Bad_Script/stylesheet.css">
+    <link rel="stylesheet" href="fonts/Roboto_Condensed/stylesheet.css">
+    <link rel="stylesheet" href="fonts/Play/stylesheet.css">
+
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+
+</head>
+<body>
+
+
+<!--боковое меню моб версии-->
+<div class="dropdown-menu__wrap" id="sweeties">
+    <ul class="dropdown-menu__nav">
+        <li class="dropdown-menu__title">
+            <a href="index2.html" class="dropdown-menu__link">Тортики</a>
+        </li>
+        <li class="dropdown-menu__title">
+            <a href="#" class="dropdown-menu__link">Зефирки</a>
+        </li>
+        <li class="dropdown-menu__title">
+            <a href="#" class="dropdown-menu__link">Десерты</a>
+        </li>
+        <li class="dropdown-menu__title">
+            <a href="#" class="dropdown-menu__link">Пирожиное</a>
+        </li>
+        <li class="dropdown-menu__title">
+            <a href="#" class="dropdown-menu__link">Кексики</a>
+        </li>
+        <li class="dropdown-menu__title">
+            <a href="#" class="dropdown-menu__link">О нас</a>
+        </li>
+        <li class="dropdown-menu__title">
+            <a href="index3.html" class="dropdown-menu__link">Контакты</a>
+        </li>
+        <li class="dropdown-menu__title">
+            <a href="index4.html" class="dropdown-menu__link">Новости</a>
+        </li>
+    </ul>
+
+    <div class="dropdown-menu__contacts">
+        <div class="dropdown-menu__contacts-block">
+            <img src="./img/phone-white.png" alt="" class="dropdown-menu__img">
+            <a href="tel:+38 (012) 345-67-89" class="dropdown-menu__contacts-link">+38 (012) 345-67-89</a>
+        </div>
+        <div class="dropdown-menu__contacts-block">
+            <img src="./img/map-white.png" alt="" class="dropdown-menu__img">
+            <span class="dropdown-menu__contacts-link">ул. Гоголя, д.42</span>
+        </div>
+    </div>
+</div>
+
+
+<div class="content-wrap">
+    <div class="header">
+        <div class="header__wrap">
+            <a href="index.html">
+                <img src="./img/logo.png" alt="" class="header__logo">
+            </a>
+            <ul class="nav">
+                <li class="nav__title">
+                    <a href="index2.html" class="nav__link">Тортики</a>
+                </li>
+                <li class="nav__title">
+                    <a href="#" class="nav__link">Зефирки</a>
+                </li>
+                <li class="nav__title">
+                    <a href="#" class="nav__link">Десерты</a>
+                </li>
+                <li class="nav__title">
+                    <a href="#" class="nav__link">Пирожиное</a>
+                </li>
+                <li class="nav__title">
+                    <a href="#" class="nav__link">Кексики</a>
+                </li>
+                <li class="nav__title">
+                    <a href="#" class="nav__link">О нас</a>
+                </li>
+                <li class="nav__title">
+                    <a href="index3.html" class="nav__link">Контакты</a>
+                </li>
+                <li class="nav__title">
+                    <a href="index4.html" class="nav__link">Новости</a>
+                </li>
+                <li class="nav__title nav__title_ribbon">
+                    <a href="#" class="nav__line">RU</a>
+                </li>
+
+                <!--кнопка появления popup КОРЗИНА-->
+                <li class="nav__title" id="myPay">
+                    <a href="#" class="nav__position">
+                        <img src="./img/shopping-cart-black-shape.png" class="nav__shopping-img">
+                        <span class="nav__shopping-count">3</span>
+                    </a>
+                </li>
+            </ul>
+
+            <!--Моб версия меню навигации-->
+            <div class="nav-mob">
+                <ul class="nav-mob__language">
+                    <li class="nav__title nav__title_ribbon">
+                        <a href="#" class="nav__line">RU</a>
+                    </li>
+                </ul>
+
+                <!--кнопка появления бокового меню моб версии-->
+                <div class="dropdown-menu">
+                    <div class="nav-mob__dots-wrap">
+                        <div class="nav-mob__dots"></div>
+                        <div class="nav-mob__dots"></div>
+                        <div class="nav-mob__dots"></div>
+                    </div>
+
+                </div>
+            </div>
+        </div>
+    </div>
+
+
+
+    <div class="catalog">
+        <div class="catalog-caption">
+            <ul class="catalog-caption__nav">
+                <li class="catalog-caption__title">
+                    <a class="catalog-caption__link" href="#">Детские</a>
+                </li>
+                <li class="catalog-caption__title">
+                    <a class="catalog-caption__link" href="#">Свадебные</a>
+                </li>
+                <li class="catalog-caption__title">
+                    <a class="catalog-caption__link" href="#">Корпоративные</a>
+                </li>
+                <li class="catalog-caption__title">
+                    <a class="catalog-caption__link" href="#">Праздничные</a>
+                </li>
+                <li class="catalog-caption__title">
+                    <a class="catalog-caption__link" href="#">Новое</a>
+                </li>
+            </ul>
+        </div>
+
+        <div class="cake-block">
+            <div class="cake-block__cell">
+                <img src="./img/cake-slider-1.jpg" alt="" class="cake-block__slider-img">
+                <div class="cake-block__tape cake-block__tape_top">
+                    <span class="cake-block__title">Муссовый торт “Кислая карамель”</span>
+                </div>
+                <div class="cake-block__tape cake-block__tape_bottom">
+                    <div class="cake-block__info">
+                        <div class="cake-block__weight-wrap">
+                            <img src="./img/kg.png" alt="" class="cake-block__weight-img">
+                            <span class="cake-block__weight">1.5 <span>кг</span></span>
+                        </div>
+
+
+
+                        <!--кнопка появления popup детали ЗАКАЗА-->
+                        <button type="submit" class="cake-block__btn" id="myBtn">в корзину</button>
+                        <div class="cake-block__price-wrap">
+                            <img src="./img/leiba.png" alt="" class="cake-block__price-img">
+                            <span class="cake-block__price">500 <span>грн</span></span>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <div class="cake-block__cell">
+                <img src="./img/cake-slider-1.jpg" alt="" class="cake-block__slider-img">
+                <div class="cake-block__tape cake-block__tape_top">
+                    <span class="cake-block__title">Муссовый торт “Кислая карамель”</span>
+                </div>
+                <div class="cake-block__tape cake-block__tape_bottom">
+                    <div class="cake-block__info">
+                        <div class="cake-block__weight-wrap">
+                            <img src="./img/kg.png" alt="" class="cake-block__weight-img">
+                            <span class="cake-block__weight">1.5 <span>кг</span></span>
+                        </div>
+                        <button type="submit" class="cake-block__btn">в корзину</button>
+                        <div class="cake-block__price-wrap">
+                            <img src="./img/leiba.png" alt="" class="cake-block__price-img">
+                            <span class="cake-block__price">500 <span>грн</span></span>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <div class="cake-block__cell">
+                <img src="./img/cake-slider-1.jpg" alt="" class="cake-block__slider-img">
+                <div class="cake-block__tape cake-block__tape_top">
+                    <span class="cake-block__title">Муссовый торт “Кислая карамель”</span>
+                </div>
+                <div class="cake-block__tape cake-block__tape_bottom">
+                    <div class="cake-block__info">
+                        <div class="cake-block__weight-wrap">
+                            <img src="./img/kg.png" alt="" class="cake-block__weight-img">
+                            <span class="cake-block__weight">1.5 <span>кг</span></span>
+                        </div>
+                        <button type="submit" class="cake-block__btn">в корзину</button>
+                        <div class="cake-block__price-wrap">
+                            <img src="./img/leiba.png" alt="" class="cake-block__price-img">
+                            <span class="cake-block__price">500 <span>грн</span></span>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="cake-block__cell">
+                <img src="./img/cake-slider-1.jpg" alt="" class="cake-block__slider-img">
+                <div class="cake-block__tape cake-block__tape_top">
+                    <span class="cake-block__title">Муссовый торт “Кислая карамель”</span>
+                </div>
+                <div class="cake-block__tape cake-block__tape_bottom">
+                    <div class="cake-block__info">
+                        <div class="cake-block__weight-wrap">
+                            <img src="./img/kg.png" alt="" class="cake-block__weight-img">
+                            <span class="cake-block__weight">1.5 <span>кг</span></span>
+                        </div>
+                        <button type="submit" class="cake-block__btn">в корзину</button>
+                        <div class="cake-block__price-wrap">
+                            <img src="./img/leiba.png" alt="" class="cake-block__price-img">
+                            <span class="cake-block__price">500 <span>грн</span></span>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="cake-block__cell">
+                <img src="./img/cake-slider-1.jpg" alt="" class="cake-block__slider-img">
+                <div class="cake-block__tape cake-block__tape_top">
+                    <span class="cake-block__title">Муссовый торт “Кислая карамель”</span>
+                </div>
+                <div class="cake-block__tape cake-block__tape_bottom">
+                    <div class="cake-block__info">
+                        <div class="cake-block__weight-wrap">
+                            <img src="./img/kg.png" alt="" class="cake-block__weight-img">
+                            <span class="cake-block__weight">1.5 <span>кг</span></span>
+                        </div>
+                        <button type="submit" class="cake-block__btn">в корзину</button>
+                        <div class="cake-block__price-wrap">
+                            <img src="./img/leiba.png" alt="" class="cake-block__price-img">
+                            <span class="cake-block__price">500 <span>грн</span></span>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="cake-block__cell">
+                <img src="./img/cake-slider-1.jpg" alt="" class="cake-block__slider-img">
+                <div class="cake-block__tape cake-block__tape_top">
+                    <span class="cake-block__title">Муссовый торт “Кислая карамель”</span>
+                </div>
+                <div class="cake-block__tape cake-block__tape_bottom">
+                    <div class="cake-block__info">
+                        <div class="cake-block__weight-wrap">
+                            <img src="./img/kg.png" alt="" class="cake-block__weight-img">
+                            <span class="cake-block__weight">1.5 <span>кг</span></span>
+                        </div>
+                        <button type="submit" class="cake-block__btn">в корзину</button>
+                        <div class="cake-block__price-wrap">
+                            <img src="./img/leiba.png" alt="" class="cake-block__price-img">
+                            <span class="cake-block__price">500 <span>грн</span></span>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="cake-block__cell">
+                <img src="./img/cake-slider-1.jpg" alt="" class="cake-block__slider-img">
+                <div class="cake-block__tape cake-block__tape_top">
+                    <span class="cake-block__title">Муссовый торт “Кислая карамель”</span>
+                </div>
+                <div class="cake-block__tape cake-block__tape_bottom">
+                    <div class="cake-block__info">
+                        <div class="cake-block__weight-wrap">
+                            <img src="./img/kg.png" alt="" class="cake-block__weight-img">
+                            <span class="cake-block__weight">1.5 <span>кг</span></span>
+                        </div>
+                        <button type="submit" class="cake-block__btn">в корзину</button>
+                        <div class="cake-block__price-wrap">
+                            <img src="./img/leiba.png" alt="" class="cake-block__price-img">
+                            <span class="cake-block__price">500 <span>грн</span></span>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="cake-block__cell">
+                <img src="./img/cake-slider-1.jpg" alt="" class="cake-block__slider-img">
+                <div class="cake-block__tape cake-block__tape_top">
+                    <span class="cake-block__title">Муссовый торт “Кислая карамель”</span>
+                </div>
+                <div class="cake-block__tape cake-block__tape_bottom">
+                    <div class="cake-block__info">
+                        <div class="cake-block__weight-wrap">
+                            <img src="./img/kg.png" alt="" class="cake-block__weight-img">
+                            <span class="cake-block__weight">1.5 <span>кг</span></span>
+                        </div>
+                        <button type="submit" class="cake-block__btn">в корзину</button>
+                        <div class="cake-block__price-wrap">
+                            <img src="./img/leiba.png" alt="" class="cake-block__price-img">
+                            <span class="cake-block__price">500 <span>грн</span></span>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="cake-block__cell">
+                <img src="./img/cake-slider-1.jpg" alt="" class="cake-block__slider-img">
+                <div class="cake-block__tape cake-block__tape_top">
+                    <span class="cake-block__title">Муссовый торт “Кислая карамель”</span>
+                </div>
+                <div class="cake-block__tape cake-block__tape_bottom">
+                    <div class="cake-block__info">
+                        <div class="cake-block__weight-wrap">
+                            <img src="./img/kg.png" alt="" class="cake-block__weight-img">
+                            <span class="cake-block__weight">1.5 <span>кг</span></span>
+                        </div>
+                        <button type="submit" class="cake-block__btn">в корзину</button>
+                        <div class="cake-block__price-wrap">
+                            <img src="./img/leiba.png" alt="" class="cake-block__price-img">
+                            <span class="cake-block__price">500 <span>грн</span></span>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="cake-block__cell">
+                <img src="./img/cake-slider-1.jpg" alt="" class="cake-block__slider-img">
+                <div class="cake-block__tape cake-block__tape_top">
+                    <span class="cake-block__title">Муссовый торт “Кислая карамель”</span>
+                </div>
+                <div class="cake-block__tape cake-block__tape_bottom">
+                    <div class="cake-block__info">
+                        <div class="cake-block__weight-wrap">
+                            <img src="./img/kg.png" alt="" class="cake-block__weight-img">
+                            <span class="cake-block__weight">1.5 <span>кг</span></span>
+                        </div>
+                        <button type="submit" class="cake-block__btn">в корзину</button>
+                        <div class="cake-block__price-wrap">
+                            <img src="./img/leiba.png" alt="" class="cake-block__price-img">
+                            <span class="cake-block__price">500 <span>грн</span></span>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="cake-block__cell">
+                <img src="./img/cake-slider-1.jpg" alt="" class="cake-block__slider-img">
+                <div class="cake-block__tape cake-block__tape_top">
+                    <span class="cake-block__title">Муссовый торт “Кислая карамель”</span>
+                </div>
+                <div class="cake-block__tape cake-block__tape_bottom">
+                    <div class="cake-block__info">
+                        <div class="cake-block__weight-wrap">
+                            <img src="./img/kg.png" alt="" class="cake-block__weight-img">
+                            <span class="cake-block__weight">1.5 <span>кг</span></span>
+                        </div>
+                        <button type="submit" class="cake-block__btn">в корзину</button>
+                        <div class="cake-block__price-wrap">
+                            <img src="./img/leiba.png" alt="" class="cake-block__price-img">
+                            <span class="cake-block__price">500 <span>грн</span></span>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="cake-block__cell">
+                <img src="./img/cake-slider-1.jpg" alt="" class="cake-block__slider-img">
+                <div class="cake-block__tape cake-block__tape_top">
+                    <span class="cake-block__title">Муссовый торт “Кислая карамель”</span>
+                </div>
+                <div class="cake-block__tape cake-block__tape_bottom">
+                    <div class="cake-block__info">
+                        <div class="cake-block__weight-wrap">
+                            <img src="./img/kg.png" alt="" class="cake-block__weight-img">
+                            <span class="cake-block__weight">1.5 <span>кг</span></span>
+                        </div>
+                        <button type="submit" class="cake-block__btn">в корзину</button>
+                        <div class="cake-block__price-wrap">
+                            <img src="./img/leiba.png" alt="" class="cake-block__price-img">
+                            <span class="cake-block__price">500 <span>грн</span></span>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="page">
+            <a href="#" class="page__link-left">
+                <img src="./img/right-arrow.png" alt="" class="page__left">
+            </a>
+            <a href="#" class="page__number">4</a>
+            <a href="#" class="page__number">5</a>
+            <a href="#" class="page__number">6</a>
+            <a href="#" class="page__number">7</a>
+            <a href="#" class="page__number">8</a>
+            <a href="#" class="page__number">...</a>
+            <a href="#" class="page__number">24</a>
+            <a href="#" class="page__number">25</a>
+            <a href="#" class="page__link-right">
+                <img src="./img/right-arrow.png" alt="" class="page__right">
+            </a>
+        </div>
+    </div>
+    <div class="footer">
+        <div class="footer__wrap">
+            <div class="footer__logo-wrap">
+                <img src="./img/birthday-cake.png" class="footer__img">
+                <div class="footer__text-wrap">
+                    <div class="footer__title">mousse CAKE</div>
+                    <span class="footer__text">Самые вкусные муссовые торты и десерты в Черкассах</span>
+                    <div class="footer__desugner footer__desugner_position">Designed by Nik & Vit</div>
+                </div>
+            </div>
+            <div class="footer__network">
+
+<!--                Надо тут href="#" вставить свою ссылку на фб-->
+                <a href="#" target="_blank"  class="footer__facebook-link">
+                    <img src="./img/facebook-logo.png" class="footer__facebook">
+                </a>
+
+<!--                Надо тут href="#" вставить свою ссылку на телегу-->
+                <a href="#" target="_blank">
+                    <img src="./img/tg.png" class="footer__telegram">
+                </a>
+                <div class="footer__desugner">Designed by Nik & Vit</div>
+            </div>
+        </div>
+    </div>
+
+    <!--кнопка появления popup ОФОРМЛЕНИЕ ЗАКАЗА моб версии-->
+    <div class="shopping-mob">
+        <a href="#" class="nav__position nav__position_mob">
+            <img src="./img/shopping-cart-black-shape.png" class="nav__shopping-img nav__shopping-img_mob">
+            <span class="nav__shopping-count nav__shopping-count_mob">3</span>
+        </a>
+    </div>
+</div>
+
+
+<!--popup детали ЗАКАЗА-->
+<div id="modalPopup" class="modal">
+    <div class="modal__content">
+        <div class="modal__title-wrap">
+            <h1 class="modal__title">Оформление заказа</h1>
+            <img src="img/close.png" class="modal__close">
+        </div>
+        <div class="modal-product">
+            <img src="./img/cake-slider-1.jpg" alt="" class="modal-product__img">
+            <div class="modal-product__circle-wrap">
+                <div class="modal-product__circle"></div>
+                <div class="modal-product__circle"></div>
+                <div class="modal-product__circle"></div>
+                <div class="modal-product__circle"></div>
+                <div class="modal-product__circle"></div>
+            </div>
+        </div>
+        <div class="modal-description">
+            <h1 class="modal-description__title">Муссовый торт “Кислая карамель”</h1>
+            <div class="modal-description__text">
+                Самый популярный торт, состоящий из очень сочного бисквита с ягодами, легкого ягодного крема и крема на основе Philadelphia
+            </div>
+            <div class="modal-description__composition-title">Что в нем:
+                <div class="modal-description__composition-wrap">
+                    <div class="modal-description__composition">- Банановый кейк </div>
+                    <div class="modal-description__composition">- Прослойка банан-карамель </div>
+                    <div class="modal-description__composition">- Ванильный мусс </div>
+                </div>
+            </div>
+            <div class="modal-payment">
+                <div class="modal-payment__left">
+                    <div class="modal-payment__weight-wrap">
+                        <span class="modal-payment__weight">Выберите вес</span>
+                        <select class="modal-payment__select">
+                            <option class="modal-payment__option">1.5 кг</option>
+                        </select>
+                    </div>
+                    <div class="modal-payment__amount-wrap">
+                        <span class="modal-payment__amount">Количество</span>
+                        <span class="modal-payment__amount-smaller">-</span>
+                        <span class="modal-payment__number">1</span>
+                        <span class="modal-payment__amount-more">+</span>
+                    </div>
+                </div>
+                <div class="modal-line"></div>
+                <div class="modal-payment__right">
+                    <div class="modal-payment__count">540 грн/кг</div>
+                    <div class="modal-payment__delivery">*Возможна доставка по городу Черкассы</div>
+                </div>
+            </div>
+        </div>
+        <button class="modal-btn" type="submit"><img src="img/shopping-cart-black-shape.png" class="modal-btn__img">В корзину</button>
+
+
+        <!--комментарии-->
+        <div class="modal-comments" onclick="openbox('box')">
+            <img class="modal-comments__comments-img" src="img/speech-bubbles-comment-option.png" alt="">
+            <span class="modal-comments__comments-title">Комментарии <span>(5)</span></span>
+        </div>
+        <div class="comments" id="box" style="display: none;">
+            <div class="comments-form">
+                <input type="text" class="comments-form__label" placeholder="Имя">
+                <input type="text" class="comments-form__label" placeholder="Email">
+                <textarea class="comments-form__text" placeholder="Ваш комментарий"></textarea>
+                <button class="comments-form__btn" type="submit">Отправить</button>
+            </div>
+            <div class="comments__block">
+                <img src="./img/ellipse.png" alt="" class="comments__ava">
+                <div class="comments__info">
+                    <div class="comments__label">Lera Sapronova</div>
+                    <div class="comments__date">15.12.2019</div>
+                    <div class="comments__about">
+                        Professional team and too great service!!.. I make an ordered from malaysia.. 😍😍</div>
+                </div>
+            </div>
+            <div class="comments__block">
+                <img src="./img/ellipse-2.png" alt="" class="comments__ava">
+                <div class="comments__info">
+                    <div class="comments__label">Олег Смирнов</div>
+                    <div class="comments__date">21.12.2019</div>
+                    <div class="comments__about">
+                        Огромное спасибо за шедевральный торт
+                    </div>
+                </div>
+            </div>
+            <div class="comments__block">
+                <img src="./img/ellipse-3.png" alt="" class="comments__ava">
+                <div class="comments__info">
+                    <div class="comments__label">Дашуля <3</div>
+                    <div class="comments__date">21.12.2019</div>
+                    <div class="comments__about">
+                        Сууупер
+                    </div>
+                </div>
+            </div>
+            <ul class="comments__page-wrap">
+                <li class="comments__page"><a href="#" class="comments__page-link">1</a></li>
+                <li class="comments__page"><a href="#" class="comments__page-link">2</a></li>
+                <li class="comments__page"><a href="#" class="comments__page-link">3</a></li>
+                <li class="comments__page"><a href="#" class="comments__page-link">4</a></li>
+                <li class="comments__page"><a href="#" class="comments__page-link">5</a></li>
+            </ul>
+        </div>
+    </div>
+</div>
+
+
+<!--popup КОРЗИНА-->
+<div class="popup-checkout" id="popupPay">
+    <div class="popup-checkout__content">
+        <div class="popup-checkout__title-wrap">
+            <h1 class="popup-checkout__title">Оформление заказа</h1>
+            <img src="img/close.png" class="popup-checkout__close">
+        </div>
+        <div class="popup-checkout__list">
+            <div class="popup-checkout__label">Цена за шт</div>
+            <div class="popup-checkout__label popup-checkout__label_right">Количество</div>
+            <div class="popup-checkout__label popup-checkout__label_size">Итого</div>
+        </div>
+        <div class="popup-checkout__list-goods">В вашей корзине 4 товара</div>
+        <div class="product">
+            <div class="product__block-wrap">
+                <div class="product__block">
+                    <img src="./img/product-1.png" alt="" class="product__img">
+                    <div class="product__caption-wrap">
+                        <div class="product__caption">Муссовый торт “Кислая карамель”</div>
+                        <div class="product__subsection">Тортики / Корпоративные</div>
+                    </div>
+                    <div class="product__block product__block_price">
+                        <div class="product__list">Цена за шт <span class="product__list product__list_price">500 грн</span></div>
+                        <div class="product__list">Количество <span class="product__list product__list_price">2</span></div>
+                        <div class="product__list">Итого <span class="product__list product__list_price">1080 грн</span></div>
+                    </div>
+                </div>
+                <div class="product__block product__block_display">
+                    <div class="product__price">540 грн</div>
+                    <div  class="product__amount">
+                        <div class="product__value">−</div>
+                        <div class="product__number">2</div>
+                        <div class="product__value">+</div>
+                    </div>
+                    <div class="product__price product__price_total">1080 грн</div>
+                </div>
+                <div class="product__block">
+                    <img src="./img/close-product.png" alt="" class="product__close">
+                </div>
+            </div>
+        </div>
+        <div class="product">
+            <div class="product__block-wrap">
+                <div class="product__block">
+                    <img src="./img/product-1.png" alt="" class="product__img">
+                    <div class="product__caption-wrap">
+                        <div class="product__caption">Муссовый торт “Кислая карамель”</div>
+                        <div class="product__subsection">Тортики / Корпоративные</div>
+                    </div>
+                    <div class="product__block product__block_price">
+                        <div class="product__list">Цена за шт <span class="product__list product__list_price">500 грн</span></div>
+                        <div class="product__list">Количество <span class="product__list product__list_price">2</span></div>
+                        <div class="product__list">Итого <span class="product__list product__list_price">1080 грн</span></div>
+                    </div>
+                </div>
+                <div class="product__block product__block_display">
+                    <div class="product__price">540 грн</div>
+                    <div  class="product__amount">
+                        <div class="product__value">−</div>
+                        <div class="product__number">2</div>
+                        <div class="product__value">+</div>
+                    </div>
+                    <div class="product__price product__price_total">1080 грн</div>
+                </div>
+                <div class="product__block">
+                    <img src="./img/close-product.png" alt="" class="product__close">
+                </div>
+            </div>
+        </div>
+        <div class="product">
+            <div class="product__block-wrap">
+                <div class="product__block">
+                    <img src="./img/product-1.png" alt="" class="product__img">
+                    <div class="product__caption-wrap">
+                        <div class="product__caption">Муссовый торт “Кислая карамель”</div>
+                        <div class="product__subsection">Тортики / Корпоративные</div>
+                    </div>
+                    <div class="product__block product__block_price">
+                        <div class="product__list">Цена за шт <span class="product__list product__list_price">500 грн</span></div>
+                        <div class="product__list">Количество <span class="product__list product__list_price">2</span></div>
+                        <div class="product__list">Итого <span class="product__list product__list_price">1080 грн</span></div>
+                    </div>
+                </div>
+                <div class="product__block product__block_display">
+                    <div class="product__price">540 грн</div>
+                    <div  class="product__amount">
+                        <div class="product__value">−</div>
+                        <div class="product__number">2</div>
+                        <div class="product__value">+</div>
+                    </div>
+                    <div class="product__price product__price_total">1080 грн</div>
+                </div>
+                <div class="product__block">
+                    <img src="./img/close-product.png" alt="" class="product__close">
+                </div>
+            </div>
+        </div>
+        <div class="product">
+            <div class="product__block-wrap">
+                <div class="product__block">
+                    <img src="./img/product-1.png" alt="" class="product__img">
+                    <div class="product__caption-wrap">
+                        <div class="product__caption">Муссовый торт “Кислая карамель”</div>
+                        <div class="product__subsection">Тортики / Корпоративные</div>
+                    </div>
+                    <div class="product__block product__block_price">
+                        <div class="product__list">Цена за шт <span class="product__list product__list_price">500 грн</span></div>
+                        <div class="product__list">Количество <span class="product__list product__list_price">2</span></div>
+                        <div class="product__list">Итого <span class="product__list product__list_price">1080 грн</span></div>
+                    </div>
+                </div>
+                <div class="product__block product__block_display">
+                    <div class="product__price">540 грн</div>
+                    <div  class="product__amount">
+                        <div class="product__value">−</div>
+                        <div class="product__number">2</div>
+                        <div class="product__value">+</div>
+                    </div>
+                    <div class="product__price product__price_total">1080 грн</div>
+                </div>
+                <div class="product__block">
+                    <img src="./img/close-product.png" alt="" class="product__close">
+                </div>
+            </div>
+        </div>
+        <div class="pay">
+            <div class="pay__title">К оплате:</div>
+            <div class="pay__count">4 320 грн</div>
+        </div>
+        <div class="delivery">
+            <div>
+                <div class="delivery__title">Выбор способа доставки</div>
+                <div class="delivery__choice">
+                    <label class="delivery__pickup-title">
+                        <input type="radio" checked name="dva" data-check="#pickup-block" class="delivery__pickup" />
+                        Самовывоз из магазина
+                    </label>
+                    <label class="delivery__pickup-title">
+                        <input type="radio" name="dva" data-check="#delivery-block" class="delivery__pickup" />
+                        Доставка
+                    </label>
+                    <div class="contacts-popup contacts-popup_mob">
+                        <span class="contacts-popup__title">ул. Гоголя, д.42</span>
+                        <span class="contacts-popup__title">График работы: Пн - Пт: 10:00 - 19:00</span>
+                        <span class="contacts-popup__title">Сб: 10:00 - 17:00 Вс: выходной</span>
+                        <span class="contacts-popup__title contacts-popup__title_margin">Номер телефона: <a href="tel: +380123456789"  class="contacts-popup__tel">+38 (012) 345-67-89</a></span>
+                    </div>
+                </div>
+                <div class="user active" id="pickup-block">
+                    <div class="user__text-wrap">
+                        <label class="user__title">Ваше имя</label>
+                        <input type="text" placeholder="Имя" class="user__text">
+                    </div>
+                    <div class="user__text-wrap">
+                        <label class="user__title">Номер телефона</label>
+                        <input type="text" placeholder="Номер" class="user__text">
+                    </div>
+                </div>
+                <div class="user" >
+                    <div class="user__text-block" id="delivery-block">
+                        <div class="user__text-wrap">
+                            <label class="user__title">Город</label>
+                            <input type="text" placeholder="Черкассы" class="user__text">
+                        </div>
+                        <div class="user__text-wrap">
+                            <label class="user__title">Адрес доставки</label>
+                            <input type="text" placeholder="Улица" class="user__text">
+                        </div>
+                    </div>
+                </div>
+                <div class="user__comments-wrap">
+                    <div class="user__comments-block">
+                        <label class="user__title">Комментарий к заказу</label>
+                        <textarea name="" placeholder="Ваш комментарий" class="user__comments"></textarea>
+                    </div>
+                    <button class="user__btn">
+                        <img src="img/shopping-cart-black-shape.png" class="user__img">Заказать
+                    </button>
+                </div>
+            </div>
+            <div class="contacts-popup">
+                <span class="contacts-popup__title">Адрес:</span> ул. Гоголя, д.42 |
+                <span class="contacts-popup__title">График работы:</span> Пн - Сб: 10:00 - 19:00 |
+                <span class="contacts-popup__title">Телефон:</span> <a href="tel: +380123456789"  class="contacts-popup__tel">+38 (012) 345-67-89</a>
+            </div>
+        </div>
+    </div>
+</div>
+
+
+<!--боковое меню script-->
+<script>
+    let menuElem = document.getElementById('sweeties');
+    let titleElem = document.querySelector('.nav-mob__dots-wrap');
+    titleElem.onclick = function() {
+        menuElem.classList.toggle('open');
+    };
+</script>
+
+<script src="js/popup.js"></script>
+
+</body>
+</html>

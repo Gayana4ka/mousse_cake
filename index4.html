@@ -1,0 +1,577 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" href="fonts/Bad_Script/stylesheet.css">
+    <link rel="stylesheet" href="fonts/Roboto_Condensed/stylesheet.css">
+    <link rel="stylesheet" href="fonts/Play/stylesheet.css">
+
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+</head>
+<body>
+
+<!--боковое меню моб версии-->
+<div class="dropdown-menu__wrap" id="sweeties">
+    <ul class="dropdown-menu__nav">
+        <li class="dropdown-menu__title">
+            <a href="index2.html" class="dropdown-menu__link">Тортики</a>
+        </li>
+        <li class="dropdown-menu__title">
+            <a href="#" class="dropdown-menu__link">Зефирки</a>
+        </li>
+        <li class="dropdown-menu__title">
+            <a href="#" class="dropdown-menu__link">Десерты</a>
+        </li>
+        <li class="dropdown-menu__title">
+            <a href="#" class="dropdown-menu__link">Пирожиное</a>
+        </li>
+        <li class="dropdown-menu__title">
+            <a href="#" class="dropdown-menu__link">Кексики</a>
+        </li>
+        <li class="dropdown-menu__title">
+            <a href="#" class="dropdown-menu__link">О нас</a>
+        </li>
+        <li class="dropdown-menu__title">
+            <a href="index3.html" class="dropdown-menu__link">Контакты</a>
+        </li>
+        <li class="dropdown-menu__title">
+            <a href="index4.html" class="dropdown-menu__link">Новости</a>
+        </li>
+    </ul>
+
+    <div class="dropdown-menu__contacts">
+        <div class="dropdown-menu__contacts-block">
+            <img src="./img/phone-white.png" alt="" class="dropdown-menu__img">
+            <a href="tel:+38 (012) 345-67-89" class="dropdown-menu__contacts-link">+38 (012) 345-67-89</a>
+        </div>
+        <div class="dropdown-menu__contacts-block">
+            <img src="./img/map-white.png" alt="" class="dropdown-menu__img">
+            <span class="dropdown-menu__contacts-link">ул. Гоголя, д.42</span>
+        </div>
+    </div>
+</div>
+
+<div class="content-wrap">
+    <div class="header">
+        <div class="header__wrap">
+            <a href="index.html">
+                <img src="./img/logo.png" alt="" class="header__logo">
+            </a>
+            <ul class="nav">
+                <li class="nav__title">
+                    <a href="index2.html" class="nav__link">Тортики</a>
+                </li>
+                <li class="nav__title">
+                    <a href="#" class="nav__link">Зефирки</a>
+                </li>
+                <li class="nav__title">
+                    <a href="#" class="nav__link">Десерты</a>
+                </li>
+                <li class="nav__title">
+                    <a href="#" class="nav__link">Пирожиное</a>
+                </li>
+                <li class="nav__title">
+                    <a href="#" class="nav__link">Кексики</a>
+                </li>
+                <li class="nav__title">
+                    <a href="#" class="nav__link">О нас</a>
+                </li>
+                <li class="nav__title">
+                    <a href="index3.html" class="nav__link">Контакты</a>
+                </li>
+                <li class="nav__title">
+                    <a href="index4.html" class="nav__link">Новости</a>
+                </li>
+                <li class="nav__title nav__title_ribbon">
+                    <a href="#" class="nav__line">RU</a>
+                </li>
+
+                <!--кнопка появления popup КОРЗИНА-->
+                <li class="nav__title" id="myPay">
+                    <a href="#" class="nav__position">
+                        <img src="./img/shopping-cart-black-shape.png" class="nav__shopping-img">
+                        <span class="nav__shopping-count">3</span>
+                    </a>
+                </li>
+            </ul>
+
+            <!--Моб версия меню навигации-->
+            <div class="nav-mob">
+                <ul class="nav-mob__language">
+                    <li class="nav__title nav__title_ribbon">
+                        <a href="#" class="nav__line">RU</a>
+                    </li>
+                </ul>
+
+                <!--кнопка появления бокового меню моб версии-->
+                <div class="dropdown-menu">
+                    <div class="nav-mob__dots-wrap">
+                        <div class="nav-mob__dots"></div>
+                        <div class="nav-mob__dots"></div>
+                        <div class="nav-mob__dots"></div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <div class="news">
+        <div class="news__title">Новости</div>
+        <div class="news__block-wrap">
+            <div class="news__block">
+                <img src="./img/news1.png" alt="" class="news__img">
+                <div class="news__about">
+                    <div class="news__right">16.12.2019</div>
+                    <div class="news__description">
+                        <div class="news__description-title">Муссовый торт “Кислая карамель”</div>
+                        <div  class="news__txt">
+                            Белковый крем довольно часто используют для украшения десертов, так как этот крем очень вкусный, воздушный и легкий в приготовлении...
+                        </div>
+                    </div>
+
+                    <!--кнопка появления popup новости-->
+                    <div class="news__right news__right_size" id="newsBtn">Подробнее ...</div>
+                </div>
+            </div>
+        </div>
+        <div class="news__block-wrap">
+            <div class="news__block">
+                <img src="./img/news1.png" alt="" class="news__img">
+                <div class="news__about">
+                    <div class="news__right">16.12.2019</div>
+                    <div class="news__description">
+                        <div class="news__description-title">Муссовый торт “Кислая карамель”</div>
+                        <div  class="news__txt">
+                            Белковый крем довольно часто используют для украшения десертов, так как этот крем очень вкусный, воздушный и легкий в приготовлении...
+                        </div>
+                    </div>
+                    <div class="news__right news__right_size">Подробнее ...</div>
+                </div>
+            </div>
+        </div>
+        <div class="news__block-wrap">
+            <div class="news__block">
+                <img src="./img/news1.png" alt="" class="news__img">
+                <div class="news__about">
+                    <div class="news__right">16.12.2019</div>
+                    <div class="news__description">
+                        <div class="news__description-title">Муссовый торт “Кислая карамель”</div>
+                        <div  class="news__txt">
+                            Белковый крем довольно часто используют для украшения десертов, так как этот крем очень вкусный, воздушный и легкий в приготовлении...
+                        </div>
+                    </div>
+                    <div class="news__right news__right_size">Подробнее ...</div>
+                </div>
+            </div>
+        </div>
+        <div class="news__block-wrap">
+            <div class="news__block">
+                <img src="./img/news1.png" alt="" class="news__img">
+                <div class="news__about">
+                    <div class="news__right">16.12.2019</div>
+                    <div class="news__description">
+                        <div class="news__description-title">Муссовый торт “Кислая карамель”</div>
+                        <div  class="news__txt">
+                            Белковый крем довольно часто используют для украшения десертов, так как этот крем очень вкусный, воздушный и легкий в приготовлении...
+                        </div>
+                    </div>
+                    <div class="news__right news__right_size">Подробнее ...</div>
+                </div>
+            </div>
+        </div>
+        <div class="news__block-wrap">
+            <div class="news__block">
+                <img src="./img/news1.png" alt="" class="news__img">
+                <div class="news__about">
+                    <div class="news__right">16.12.2019</div>
+                    <div class="news__description">
+                        <div class="news__description-title">Муссовый торт “Кислая карамель”</div>
+                        <div  class="news__txt">
+                            Белковый крем довольно часто используют для украшения десертов, так как этот крем очень вкусный, воздушный и легкий в приготовлении...
+                        </div>
+                    </div>
+                    <div class="news__right news__right_size">Подробнее ...</div>
+                </div>
+            </div>
+        </div>
+        <div class="news__block-wrap">
+            <div class="news__block">
+                <img src="./img/news1.png" alt="" class="news__img">
+                <div class="news__about">
+                    <div class="news__right">16.12.2019</div>
+                    <div class="news__description">
+                        <div class="news__description-title">Муссовый торт “Кислая карамель”</div>
+                        <div  class="news__txt">
+                            Белковый крем довольно часто используют для украшения десертов, так как этот крем очень вкусный, воздушный и легкий в приготовлении...
+                        </div>
+                    </div>
+                    <div class="news__right news__right_size">Подробнее ...</div>
+                </div>
+            </div>
+        </div>
+        <div class="news__block-wrap">
+            <div class="news__block">
+                <img src="./img/news1.png" alt="" class="news__img">
+                <div class="news__about">
+                    <div class="news__right">16.12.2019</div>
+                    <div class="news__description">
+                        <div class="news__description-title">Муссовый торт “Кислая карамель”</div>
+                        <div  class="news__txt">
+                            Белковый крем довольно часто используют для украшения десертов, так как этот крем очень вкусный, воздушный и легкий в приготовлении...
+                        </div>
+                    </div>
+                    <div class="news__right news__right_size">Подробнее ...</div>
+                </div>
+            </div>
+        </div>
+        <div class="news__block-wrap">
+            <div class="news__block">
+                <img src="./img/news1.png" alt="" class="news__img">
+                <div class="news__about">
+                    <div class="news__right">16.12.2019</div>
+                    <div class="news__description">
+                        <div class="news__description-title">Муссовый торт “Кислая карамель”</div>
+                        <div  class="news__txt">
+                            Белковый крем довольно часто используют для украшения десертов, так как этот крем очень вкусный, воздушный и легкий в приготовлении...
+                        </div>
+                    </div>
+                    <div class="news__right news__right_size">Подробнее ...</div>
+                </div>
+            </div>
+        </div>
+        <div class="news__block-wrap">
+            <div class="news__block">
+                <img src="./img/news1.png" alt="" class="news__img">
+                <div class="news__about">
+                    <div class="news__right">16.12.2019</div>
+                    <div class="news__description">
+                        <div class="news__description-title">Муссовый торт “Кислая карамель”</div>
+                        <div  class="news__txt">
+                            Белковый крем довольно часто используют для украшения десертов, так как этот крем очень вкусный, воздушный и легкий в приготовлении...
+                        </div>
+                    </div>
+                    <div class="news__right news__right_size">Подробнее ...</div>
+                </div>
+            </div>
+        </div>
+        <div class="news__block-wrap">
+            <div class="news__block">
+                <img src="./img/news1.png" alt="" class="news__img">
+                <div class="news__about">
+                    <div class="news__right">16.12.2019</div>
+                    <div class="news__description">
+                        <div class="news__description-title">Муссовый торт “Кислая карамель”</div>
+                        <div  class="news__txt">
+                            Белковый крем довольно часто используют для украшения десертов, так как этот крем очень вкусный, воздушный и легкий в приготовлении...
+                        </div>
+                    </div>
+                    <div class="news__right news__right_size">Подробнее ...</div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <div class="page page_news">
+        <a href="#" class="page__link-left">
+            <img src="./img/right-arrow.png" alt="" class="page__left">
+        </a>
+        <a href="#" class="page__number">4</a>
+        <a href="#" class="page__number">5</a>
+        <a href="#" class="page__number">6</a>
+        <a href="#" class="page__number">7</a>
+        <a href="#" class="page__number">8</a>
+        <a href="#" class="page__number">...</a>
+        <a href="#" class="page__number">24</a>
+        <a href="#" class="page__number">25</a>
+        <a href="#" class="page__link-right">
+            <img src="./img/right-arrow.png" alt="" class="page__right">
+        </a>
+    </div>
+    <div class="footer">
+        <div class="footer__wrap">
+            <div class="footer__logo-wrap">
+                <img src="./img/birthday-cake.png" class="footer__img">
+                <div class="footer__text-wrap">
+                    <div class="footer__title">mousse CAKE</div>
+                    <span class="footer__text">Самые вкусные муссовые торты и десерты в Черкассах</span>
+                    <div class="footer__desugner footer__desugner_position">Designed by Nik & Vit</div>
+                </div>
+            </div>
+            <div class="footer__network">
+
+<!--                Надо тут href="#" вставить свою ссылку на фб-->
+                <a href="#" target="_blank"  class="footer__facebook-link">
+                    <img src="./img/facebook-logo.png" class="footer__facebook">
+
+
+<!--                    Надо тут href="#" вставить свою ссылку на телегу-->
+                <a href="#" target="_blank">
+                    <img src="./img/tg.png" class="footer__telegram">
+                </a>
+                <div class="footer__desugner">Designed by Nik & Vit</div>
+            </div>
+        </div>
+    </div>
+
+
+    <!--кнопка появления popup ОФОРМЛЕНИЕ ЗАКАЗА моб версии-->
+    <div class="shopping-mob">
+        <a href="#" class="nav__position nav__position_mob">
+            <img src="./img/shopping-cart-black-shape.png" class="nav__shopping-img nav__shopping-img_mob">
+            <span class="nav__shopping-count nav__shopping-count_mob">3</span>
+        </a>
+    </div>
+</div>
+
+
+
+<!--popup новости-->
+<div id="modalNews" class="modal modal_news">
+    <div class="modal__content modal__content_width">
+        <div class="modal__title-wrap">
+            <h1 class="modal__title modal__title_margin">Классический торт "Наполеон"</h1>
+            <img src="img/close.png" class="modal__close modal__close_news">
+        </div>
+        <div class="modal-product modal-product_right">
+            <img src="./img/cake-slider-1.jpg" alt="" class="modal-product__img">
+            <div class="modal-product__circle-wrap">
+                <div class="modal-product__circle"></div>
+                <div class="modal-product__circle"></div>
+                <div class="modal-product__circle"></div>
+                <div class="modal-product__circle"></div>
+                <div class="modal-product__circle"></div>
+            </div>
+        </div>
+        <div class="modal-description modal-description_width">
+            <div class="modal-description__caption">
+                Один из самых вкусных и любимых десертов в моей семье - торт "Наполеон". Его приготовление не назовешь простым и быстрым, но результат, безусловно, стоит этих усилий. Торт получается изумительно вкусным, с тонкими коржами и нежнейшим масляно-заварным кремом.
+            </div>
+            <div class="modal-description__recipe-wrap">
+                Рецепт приготовления:
+            </div>
+            <div class="modal-description__recipe">
+                1. На рабочую поверхность насыпаем просеянную муку и размягченное масло, руками хорошо перетираем в крошку. Отдельно размешиваем яйцо в стакане холодной и чуть подсоленной воды. Вливаем жидкость и замешиваем эластичное тесто.
+            </div>
+            <div class="modal-description__recipe">
+                2. Формируем из теста колбаску, делим на 8 частей и ставим на полчаса в холодильник.
+            </div>
+            <div class="modal-description__recipe">
+                3. Затем раскатываем каждую часть в корж толщиной 1 мм. Вырезаем круги с помощью тарелки диаметром 20 см, накалываем вилкой в нескольких местах и выпекаем коржи по отдельности в предварительно разогретой до 200-220 С духовке.
+            </div>
+            <div class="modal-description__recipe">
+                4.Из остатков теста формируем корж, выпекаем его и с помощью скалки делаем крошку, которую будем использовать для посыпки торта. Когда все коржи будут готовы, приступаем к приготовлению крема.
+            </div>
+            <div class="modal-description__recipe">
+                5. Смешиваем при помощи венчика 2 стакана молока с яйцами, ванилью и мукой. Соединяем отдельно 2 стакана молока с сахаром и кипятим на медленном огне, помешивая. Затем вливаем яично-молочную смесь и доводим все до кипения, постоянно помешивая венчиком, чтобы не образовывались комочки. Когда крем закипит, уменьшаем огонь и продолжаем помешивать еще несколько минут до загустения.
+            </div>
+            <div class="modal-description__recipe">
+                6. Когда крем готов и все коржи остыли, начинаем собирать торт. Обильно смазываем коржи горячим или теплым заварным кремом. Посыпаем верх и бока крошками. Даем торту постоять несколько часов при комнатной температуре, а затем ставим его в холодильник на ночь.
+            </div>
+        </div>
+    </div>
+</div>
+
+
+<!--popup КОРЗИНА-->
+<div class="popup-checkout" id="popupPay">
+    <div class="popup-checkout__content">
+        <div class="popup-checkout__title-wrap">
+            <h1 class="popup-checkout__title">Оформление заказа</h1>
+            <img src="img/close.png" class="popup-checkout__close">
+        </div>
+        <div class="popup-checkout__list">
+            <div class="popup-checkout__label">Цена за шт</div>
+            <div class="popup-checkout__label popup-checkout__label_right">Количество</div>
+            <div class="popup-checkout__label popup-checkout__label_size">Итого</div>
+        </div>
+        <div class="popup-checkout__list-goods">В вашей корзине 4 товара</div>
+        <div class="product">
+            <div class="product__block-wrap">
+                <div class="product__block">
+                    <img src="./img/product-1.png" alt="" class="product__img">
+                    <div class="product__caption-wrap">
+                        <div class="product__caption">Муссовый торт “Кислая карамель”</div>
+                        <div class="product__subsection">Тортики / Корпоративные</div>
+                    </div>
+                    <div class="product__block product__block_price">
+                        <div class="product__list">Цена за шт <span class="product__list product__list_price">500 грн</span></div>
+                        <div class="product__list">Количество <span class="product__list product__list_price">2</span></div>
+                        <div class="product__list">Итого <span class="product__list product__list_price">1080 грн</span></div>
+                    </div>
+                </div>
+                <div class="product__block product__block_display">
+                    <div class="product__price">540 грн</div>
+                    <div  class="product__amount">
+                        <div class="product__value">−</div>
+                        <div class="product__number">2</div>
+                        <div class="product__value">+</div>
+                    </div>
+                    <div class="product__price product__price_total">1080 грн</div>
+                </div>
+                <div class="product__block">
+                    <img src="./img/close-product.png" alt="" class="product__close">
+                </div>
+            </div>
+        </div>
+        <div class="product">
+            <div class="product__block-wrap">
+                <div class="product__block">
+                    <img src="./img/product-1.png" alt="" class="product__img">
+                    <div class="product__caption-wrap">
+                        <div class="product__caption">Муссовый торт “Кислая карамель”</div>
+                        <div class="product__subsection">Тортики / Корпоративные</div>
+                    </div>
+                    <div class="product__block product__block_price">
+                        <div class="product__list">Цена за шт <span class="product__list product__list_price">500 грн</span></div>
+                        <div class="product__list">Количество <span class="product__list product__list_price">2</span></div>
+                        <div class="product__list">Итого <span class="product__list product__list_price">1080 грн</span></div>
+                    </div>
+                </div>
+                <div class="product__block product__block_display">
+                    <div class="product__price">540 грн</div>
+                    <div  class="product__amount">
+                        <div class="product__value">−</div>
+                        <div class="product__number">2</div>
+                        <div class="product__value">+</div>
+                    </div>
+                    <div class="product__price product__price_total">1080 грн</div>
+                </div>
+                <div class="product__block">
+                    <img src="./img/close-product.png" alt="" class="product__close">
+                </div>
+            </div>
+        </div>
+        <div class="product">
+            <div class="product__block-wrap">
+                <div class="product__block">
+                    <img src="./img/product-1.png" alt="" class="product__img">
+                    <div class="product__caption-wrap">
+                        <div class="product__caption">Муссовый торт “Кислая карамель”</div>
+                        <div class="product__subsection">Тортики / Корпоративные</div>
+                    </div>
+                    <div class="product__block product__block_price">
+                        <div class="product__list">Цена за шт <span class="product__list product__list_price">500 грн</span></div>
+                        <div class="product__list">Количество <span class="product__list product__list_price">2</span></div>
+                        <div class="product__list">Итого <span class="product__list product__list_price">1080 грн</span></div>
+                    </div>
+                </div>
+                <div class="product__block product__block_display">
+                    <div class="product__price">540 грн</div>
+                    <div  class="product__amount">
+                        <div class="product__value">−</div>
+                        <div class="product__number">2</div>
+                        <div class="product__value">+</div>
+                    </div>
+                    <div class="product__price product__price_total">1080 грн</div>
+                </div>
+                <div class="product__block">
+                    <img src="./img/close-product.png" alt="" class="product__close">
+                </div>
+            </div>
+        </div>
+        <div class="product">
+            <div class="product__block-wrap">
+                <div class="product__block">
+                    <img src="./img/product-1.png" alt="" class="product__img">
+                    <div class="product__caption-wrap">
+                        <div class="product__caption">Муссовый торт “Кислая карамель”</div>
+                        <div class="product__subsection">Тортики / Корпоративные</div>
+                    </div>
+                    <div class="product__block product__block_price">
+                        <div class="product__list">Цена за шт <span class="product__list product__list_price">500 грн</span></div>
+                        <div class="product__list">Количество <span class="product__list product__list_price">2</span></div>
+                        <div class="product__list">Итого <span class="product__list product__list_price">1080 грн</span></div>
+                    </div>
+                </div>
+                <div class="product__block product__block_display">
+                    <div class="product__price">540 грн</div>
+                    <div  class="product__amount">
+                        <div class="product__value">−</div>
+                        <div class="product__number">2</div>
+                        <div class="product__value">+</div>
+                    </div>
+                    <div class="product__price product__price_total">1080 грн</div>
+                </div>
+                <div class="product__block">
+                    <img src="./img/close-product.png" alt="" class="product__close">
+                </div>
+            </div>
+        </div>
+        <div class="pay">
+            <div class="pay__title">К оплате:</div>
+            <div class="pay__count">4 320 грн</div>
+        </div>
+        <div class="delivery">
+            <div>
+                <div class="delivery__title">Выбор способа доставки</div>
+                <div class="delivery__choice">
+                    <label class="delivery__pickup-title">
+                        <input type="radio" checked name="dva" data-check="#pickup-block" class="delivery__pickup" />
+                        Самовывоз из магазина
+                    </label>
+                    <label class="delivery__pickup-title">
+                        <input type="radio" name="dva" data-check="#delivery-block" class="delivery__pickup" />
+                        Доставка
+                    </label>
+                    <div class="contacts-popup contacts-popup_mob">
+                        <span class="contacts-popup__title">ул. Гоголя, д.42</span>
+                        <span class="contacts-popup__title">График работы: Пн - Пт: 10:00 - 19:00</span>
+                        <span class="contacts-popup__title">Сб: 10:00 - 17:00 Вс: выходной</span>
+                        <span class="contacts-popup__title contacts-popup__title_margin">Номер телефона: <a href="tel: +380123456789"  class="contacts-popup__tel">+38 (012) 345-67-89</a></span>
+                    </div>
+                </div>
+                <div class="user active" id="pickup-block">
+                    <div class="user__text-wrap">
+                        <label class="user__title">Ваше имя</label>
+                        <input type="text" placeholder="Имя" class="user__text">
+                    </div>
+                    <div class="user__text-wrap">
+                        <label class="user__title">Номер телефона</label>
+                        <input type="text" placeholder="Номер" class="user__text">
+                    </div>
+                </div>
+                <div class="user" >
+                    <div class="user__text-block" id="delivery-block">
+                        <div class="user__text-wrap">
+                            <label class="user__title">Город</label>
+                            <input type="text" placeholder="Черкассы" class="user__text">
+                        </div>
+                        <div class="user__text-wrap">
+                            <label class="user__title">Адрес доставки</label>
+                            <input type="text" placeholder="Улица" class="user__text">
+                        </div>
+                    </div>
+                </div>
+                <div class="user__comments-wrap">
+                    <div class="user__comments-block">
+                        <label class="user__title">Комментарий к заказу</label>
+                        <textarea name="" placeholder="Ваш комментарий"  class="user__comments"></textarea>
+                    </div>
+                    <button class="user__btn">
+                        <img src="img/shopping-cart-black-shape.png" class="user__img">Заказать
+                    </button>
+                </div>
+            </div>
+            <div class="contacts-popup">
+                <span class="contacts-popup__title">Адрес:</span> ул. Гоголя, д.42 |
+                <span class="contacts-popup__title">График работы:</span> Пн - Сб: 10:00 - 19:00 |
+                <span class="contacts-popup__title">Телефон:</span> <a href="tel: +380123456789"  class="contacts-popup__tel">+38 (012) 345-67-89</a>
+            </div>
+        </div>
+    </div>
+</div>
+
+
+<script>
+    let menuElem = document.getElementById('sweeties');
+    let titleElem = document.querySelector('.nav-mob__dots-wrap');
+    titleElem.onclick = function() {
+        menuElem.classList.toggle('open');
+    };
+</script>
+
+<script src="js/popup.js"></script>
+
+</body>
+</html>
